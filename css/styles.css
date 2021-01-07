@@ -1,0 +1,288 @@
+/*************************************************Tag selector**************************************/
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1rem;
+}
+
+.content {
+  margin: 50px auto 0 auto;
+  color:#144d53;
+  font-weight:700;
+  font-family: Amatic SC;
+  font-size: 6rem;
+
+  position: relative;
+  top:160px;
+
+  text-align: center;
+
+
+}
+.intro{
+  text-align: center;
+
+}
+
+a {
+  background-color: #ff9b93;
+  font-family: Merriweather;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.mountain {
+  bottom: 100px;
+}
+
+h2 {
+  font-family: 'Merriweather';
+  color: #41aea9;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: 'Merriweather';
+  color: #00b8a9;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.dots {
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color: #ff9b93;
+  height: 0px;
+  width: 6%;
+}
+
+/***********************************************class selector*****************************************************/
+.top-container {
+  background-color: #e8ffff;
+  position: relative;
+
+
+}
+
+.middle-container {
+  margin: 100px;
+}
+
+.bottom-container {
+  background-color: #ff9b93;
+  padding: 50px 0px 20px;
+  font-family: Merriweather;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  top: 300px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.img1 {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+
+.img2 {
+  width: 25%;
+  float: right;
+  margin-right: 20px;
+}
+
+.intro {
+  line-height: 2;
+  padding-bottom: 50px;
+  display: inline-block;
+
+}
+
+
+.underwater{
+
+
+    /**background-image: url('../images/Untitled-6.png');**/
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+img-content{
+  position: relative;
+  bottom:500px;
+}
+.top-container{
+  background-color:#ff9b93;
+  margin:0px;
+  padding-left: 5%;
+
+}
+body{
+  margin: 0px;
+}
+.brand{
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+
+.nav-link{
+  font-family: Montserrat;
+  font-size: 1.2rem;
+
+  font-weight: 600;
+  padding-right: 7%;
+}
+.jumbotron{
+  background-color:#ff9b93 ;
+
+  position:absolute;
+  left:180px;
+  bottom:100px;
+
+text-align:center;
+
+opacity:0.7;
+
+}
+.container-fluid{
+  background-color: ;
+}
+/**.content{
+
+  font-size: 100px;
+  text-align: center;
+
+}**/
+.content-discount{
+color:#00b8a9;
+  font-size: 25px;
+  font-family: Amatic SC;
+  font-size: 3rem;
+  position: relative;
+  text-align: center;
+  top:200px;
+
+
+}
+
+.inner-img{
+
+  height:400px;
+  width:700px;
+  text-align:center;
+  display: inline-block;
+  position:absolute;
+  padding:90px 200px 90px 200px;
+  top:270px;
+  left:400px;
+  opacity:0.7;
+
+}
+@media (max-width:1262px) {
+  .jumbotron{
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+
+}
+}
+/*@media (max-width:1104px) {
+  .content{
+    position: absolute;
+    top:200px;
+    left:300px;
+  }
+}
+@media (max-width:938px) {
+  .content{
+    position: absolute;
+    top:200px;
+    left:250px;
+  }
+
+}
+@media (max-width:587px) {
+  .content{
+    position: absolute;
+    top:150px;
+    left:160px;
+  }
+
+}
+@media (max-width:610px) {
+  .content{
+    position: absolute;
+    top:150px;
+    left:160px;
+  }
+
+}*/
+
+.heading{
+
+  color: #41aea9;
+  font-family: Amatic SC;
+  font-size: 4rem;
+
+  text-align: center;
+}
+.heading-sub{
+  color: #ff9b93;
+  font-family: Amatic SC;
+  font-size: 3rem;
+
+  text-align: center;
+}
+.info{
+  color: black;
+  font-family: Montserrat;
+
+
+  text-align: center;
+}
+.img-container{
+  background-color: #ffe2e2;
+}
+
+
+
+@media (max-width:1028px){
+  .content{
+    text-align: center;
+    position: relative;
+    top:40px;
+  }
+  .content-discount{
+
+      text-align: center;
+      position: relative;
+      top:20px;
+
+  }
+
+}

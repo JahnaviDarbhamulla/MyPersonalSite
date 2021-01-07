@@ -1,0 +1,211 @@
+/****************************navigation-bar*******************************/
+body {
+  margin: 0px;
+  text-align: center;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 1rem;
+}
+
+.top-container {
+  background-color: #ff9b93;
+  margin: 0px;
+
+  padding-bottom: 7%;
+    padding: 4% 10%;
+}
+}
+
+a {
+  background-color: #ff9b93;
+  font-family: Merriweather;
+  margin: 10px 35px;
+  text-decoration: none;
+}
+
+.brand {
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.nav-link {
+  font-family: Montserrat;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding-right: 10%;
+}
+
+.myicon {
+  width: 150px;
+  height: 150px;
+  padding: 0px;
+}
+
+/********************************************intro**********************************/
+.img-container {
+  background-color: #ffe2e2;
+}
+
+.underwater {
+  /**background-image: url('../images/Untitled-6.png');**/
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+.content-discount {
+  color: #00b8a9;
+  font-size: 25px;
+  font-family: Amatic SC;
+  font-size: 3rem;
+  position: relative;
+  text-align: center;
+  top: 200px;
+}
+
+.content {
+  margin: 50px auto 0 auto;
+  color: #144d53;
+  font-weight: 700;
+  font-family: Amatic SC;
+  font-size: 6rem;
+  position: relative;
+  top: 160px;
+  text-align: center;
+}
+
+@media (max-width:1028px) {
+  .content {
+    text-align: center;
+    position: relative;
+    top: 40px;
+  }
+
+  .content-discount {
+    text-align: center;
+    position: relative;
+    top: 20px;
+  }
+}
+
+.nav-item{
+  text-align: center;
+}
+
+/**********************middle container****************************/
+.jahnavi {
+  bottom: 100px;
+}
+
+h2 {
+  font-family: 'Merriweather';
+  color: #41aea9;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: 'Merriweather';
+  color: #00b8a9;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.dots {
+  border-style: dotted none none;
+  border-width: 10px;
+  border-color: #ff9b93;
+  height: 0px;
+  width: 6%;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.img1 {
+  width: 35%;
+  float: left;
+  margin-right: 20px;
+
+}
+
+.img2 {
+  width: 35%;
+  float: right;
+  margin-right: 20px;
+}
+
+
+.heading {
+  color: #41aea9;
+  font-family: Amatic SC;
+  font-size: 4rem;
+  text-align: center;
+}
+
+.heading-sub {
+  color: #ff9b93;
+  font-family: Amatic SC;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.myicon1 {
+  width: 160px;
+  height: 160px;
+  padding: 0px;
+}
+
+
+p{
+  font-family: Montserrat;
+  font-size: 2rem;
+}
+/***********************************footer*********************/
+.bottom-container {
+  background-color: #ff9b93;
+  padding: 50px 0px 20px;
+  font-family: Merriweather;
+}
+
+.footer-link {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+
+
+@media (max-width:1000px) {
+  .myicon1{
+    width:350px;
+    height:350px;
+  }
+
+  .btn{
+    width:400px;
+    height:50px;
+  }
+  .mail{
+    width:500px;
+    height:50px;
+    padding-left: 5%;
+  }
+
+  .myicon{
+    width:200px;
+    height:200px;
+  }
+
+  .navbar-toggler{
+    padding: 5%;
+  }
+
+}
